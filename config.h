@@ -6,7 +6,6 @@
 #define MBEDTLS_SSL_CIPHERSUITES MBEDTLS_TLS_PSK_WITH_AES_128_GCM_SHA256
 #define MBEDTLS_SSL_PROTO_TLS1_2
 
-/* want to test mbedtls_ssl_context_save() / mbedtls_ssl_context_load() */
 #define MBEDTLS_SSL_CONTEXT_SERIALIZATION
 
 #define MBEDTLS_CTR_DRBG_C
